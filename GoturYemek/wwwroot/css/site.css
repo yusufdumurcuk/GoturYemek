@@ -1,0 +1,50 @@
+<style>
+    /* Footer ve içeriði arasýna boþluk eklemek için */
+    body {
+        padding-bottom: 100px; /* Footer ile çakýþmayý önlemek için sayfa altýna boþluk eklenir */
+    }
+
+    footer {
+        position: relative; /* Footer sayfanýn altýnda kalýr, yapýþýk olmaz */
+        bottom: 0;
+        width: 100%;
+    }
+
+    .login__forms, .register__forms {
+        margin-bottom: 50px; /* Login ve register formunun altýna boþluk */
+    }
+/* Navbar stil düzenlemeleri */
+.navbar {
+    padding: 0.5rem 1rem; /* Navbar'ýn iç boþluklarýný küçültme */
+}
+
+.navbar-brand {
+    font-size: 1.25rem; /* Navbar'daki logo/marka yazýsýnýn boyutunu küçültme */
+}
+
+.navbar-nav .nav-link {
+    font-size: 0.9rem; /* Navbar'daki menü öðelerinin boyutunu küçültme */
+    padding: 0.5rem 1rem; /* Menü öðelerinin iç boþluklarýný küçültme */
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem; /* Toggler butonunun boyutunu küçültme (mobil görünümde) */
+}
+
+h1 {
+    font-size: 1.5rem; /* Baþlýk boyutunu küçültme */
+}
+
+/* Footer stil düzenlemeleri */
+footer {
+    padding: 0.1rem 0; /* Üst ve alt boþluklarý azaltma */
+    font-size: 0.9rem; /* Metin boyutunu küçültme */
+    background-color: #f8f9fa; /* Ýsteðe baðlý: footer arka plan rengini belirleme */
+}
+
+    footer .container {
+        text-align: center; /* Ýçerikleri ortalamak için */
+    }
+</style>
+
+
